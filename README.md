@@ -54,3 +54,21 @@ The goal is to reproduce the Town Hall layout using HTML and CSS.
 Modify the provided files and commit your changes.
 
 The assignment will be automatically graded using GitHub Actions.
+STUDENT(StudentID PK, StudentName, DepartmentID FK)
+
+DEPARTMENT(DepartmentID PK, DepartmentName)
+
+COURSE(CourseID PK, CourseName, FacultyID FK)
+
+FACULTY(FacultyID PK, FacultyName)
+
+ENROLLMENT(StudentID FK, CourseID FK)
+STUDENT(StudentID PK, StudentName, DepartmentID FK)
+
+DEPARTMENT(DepartmentID PK, DepartmentName)
+
+COURSE(CourseID PK, CourseName, FacultyID FK)
+
+FACULTY(FacultyID PK, FacultyName)
+
+ENROLLMENT(StudentID FK, CourseID FK)
